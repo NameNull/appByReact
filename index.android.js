@@ -13,6 +13,9 @@ import {
 } from 'react-native';
 
 export default class app extends Component {
+  constructor(){
+    super();
+  }
   render() {
     return (
       <View style={styles.container}>
